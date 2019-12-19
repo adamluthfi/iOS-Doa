@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		191E847B2396A541002E1DAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191E847A2396A541002E1DAD /* AppDelegate.swift */; };
 		191E847D2396A541002E1DAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191E847C2396A541002E1DAD /* SceneDelegate.swift */; };
-		191E847F2396A541002E1DAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191E847E2396A541002E1DAD /* ContentView.swift */; };
+		191E847F2396A541002E1DAD /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191E847E2396A541002E1DAD /* AuthView.swift */; };
 		191E84812396A542002E1DAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 191E84802396A542002E1DAD /* Assets.xcassets */; };
 		191E84842396A542002E1DAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 191E84832396A542002E1DAD /* Preview Assets.xcassets */; };
 		191E84872396A542002E1DAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 191E84852396A542002E1DAD /* LaunchScreen.storyboard */; };
 		191E84922396A542002E1DAD /* doaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191E84912396A542002E1DAD /* doaTests.swift */; };
 		191E849D2396A542002E1DAD /* doaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191E849C2396A542002E1DAD /* doaUITests.swift */; };
+		19ADAB8D239954B400D2AA70 /* PasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ADAB8C239954B400D2AA70 /* PasswordView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,7 @@
 		191E84772396A541002E1DAD /* doa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		191E847A2396A541002E1DAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		191E847C2396A541002E1DAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		191E847E2396A541002E1DAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		191E847E2396A541002E1DAD /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 		191E84802396A542002E1DAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		191E84832396A542002E1DAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		191E84862396A542002E1DAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		191E84982396A542002E1DAD /* doaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = doaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		191E849C2396A542002E1DAD /* doaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doaUITests.swift; sourceTree = "<group>"; };
 		191E849E2396A542002E1DAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19ADAB8C239954B400D2AA70 /* PasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +101,9 @@
 		191E84792396A541002E1DAD /* doa */ = {
 			isa = PBXGroup;
 			children = (
+				19ADAB892399537900D2AA70 /* register */,
 				191E847A2396A541002E1DAD /* AppDelegate.swift */,
 				191E847C2396A541002E1DAD /* SceneDelegate.swift */,
-				191E847E2396A541002E1DAD /* ContentView.swift */,
 				191E84802396A542002E1DAD /* Assets.xcassets */,
 				191E84852396A542002E1DAD /* LaunchScreen.storyboard */,
 				191E84882396A542002E1DAD /* Info.plist */,
@@ -134,6 +136,31 @@
 				191E849E2396A542002E1DAD /* Info.plist */,
 			);
 			path = doaUITests;
+			sourceTree = "<group>";
+		};
+		19ADAB892399537900D2AA70 /* register */ = {
+			isa = PBXGroup;
+			children = (
+				19ADAB8B2399539F00D2AA70 /* password */,
+				19ADAB8A2399539200D2AA70 /* auth */,
+			);
+			path = register;
+			sourceTree = "<group>";
+		};
+		19ADAB8A2399539200D2AA70 /* auth */ = {
+			isa = PBXGroup;
+			children = (
+				191E847E2396A541002E1DAD /* AuthView.swift */,
+			);
+			path = auth;
+			sourceTree = "<group>";
+		};
+		19ADAB8B2399539F00D2AA70 /* password */ = {
+			isa = PBXGroup;
+			children = (
+				19ADAB8C239954B400D2AA70 /* PasswordView.swift */,
+			);
+			path = password;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,7 +296,8 @@
 			files = (
 				191E847B2396A541002E1DAD /* AppDelegate.swift in Sources */,
 				191E847D2396A541002E1DAD /* SceneDelegate.swift in Sources */,
-				191E847F2396A541002E1DAD /* ContentView.swift in Sources */,
+				191E847F2396A541002E1DAD /* AuthView.swift in Sources */,
+				19ADAB8D239954B400D2AA70 /* PasswordView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,7 +471,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = doa.ai.doa;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.doa.ai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -463,7 +491,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = doa.ai.doa;
+				PRODUCT_BUNDLE_IDENTIFIER = doa.ai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

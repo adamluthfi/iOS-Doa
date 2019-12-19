@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+options: "28c9bb5bd588c38809a4ba2478bee6b6"
+build_time: [1575561318, 796575000]
+inputs:
+  "/Users/rcti/Project/iOS/doa/doa/AppDelegate.swift": [1575382465, 492121876]
+  "/Users/rcti/Project/iOS/doa/doa/SceneDelegate.swift": [1575558363, 103651886]
+  "/Users/rcti/Project/iOS/doa/doa/register/auth/AuthView.swift": [1575561233, 568240123]
+  "/Users/rcti/Project/iOS/doa/doa/register/password/PasswordView.swift": [1575561042, 133164010]

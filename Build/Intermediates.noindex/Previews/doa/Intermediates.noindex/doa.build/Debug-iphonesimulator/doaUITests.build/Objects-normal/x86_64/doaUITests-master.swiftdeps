@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+options: "c2cadce9a29f1514ec49dcdb08c5e32e"
+build_time: [1575382491, 749318000]
+inputs:
+  "/Users/rcti/Project/iOS/doa/doaUITests/doaUITests.swift": [1575382466, 793456316]
